@@ -1,17 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6f0ea2ec-45e5-44d8-b2b5-ca346f2d4c67" name="Default Changelist" comment="" />
+    <list default="true" id="6f0ea2ec-45e5-44d8-b2b5-ca346f2d4c67" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/resources/views/admin/home.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/admin/login.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/admin/register.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/admin/users/create.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/admin/users/index.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/site/home.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/projeto-laravel.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/projeto-laravel.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Auth/ConfirmPasswordController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Admin/Auth/ConfirmPasswordController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Auth/ForgotPasswordController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Admin/Auth/ForgotPasswordController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Auth/LoginController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Admin/Auth/LoginController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Auth/RegisterController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Admin/Auth/RegisterController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Auth/ResetPasswordController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Admin/Auth/ResetPasswordController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Auth/VerificationController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Admin/Auth/VerificationController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Middleware/RedirectIfAuthenticated.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Middleware/RedirectIfAuthenticated.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/app.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/database.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/database.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/session.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/session.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution>
       <executable />
     </execution>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP 7.4">
     <include_path>
@@ -101,20 +128,33 @@
       <path value="$PROJECT_DIR$/vendor/tijsverkoyen/css-to-inline-styles" />
       <path value="$PROJECT_DIR$/vendor/composer" />
       <path value="$PROJECT_DIR$/vendor/dragonmantank/cron-expression" />
+      <path value="$PROJECT_DIR$/vendor/almasaeed2010/adminlte" />
+      <path value="$PROJECT_DIR$/vendor/jeroennoten/laravel-adminlte" />
     </include_path>
   </component>
   <component name="ProjectId" id="1VoqxoPbwwxECFMfmrzADj8op2q" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="Symfony2.MethodReferenceSettingsForm" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Dev\projeto-laravel\app\Http\Controllers\Admin" />
+      <recent name="E:\Dev\projeto-laravel\app\Http\Controllers\Admin\Auth" />
+      <recent name="E:\Dev\projeto-laravel\app\Http\Controllers\Site" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="phpunit.xml" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
@@ -144,7 +184,14 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1577930045775</updated>
-      <workItem from="1577930054199" duration="642000" />
+      <workItem from="1577930054199" duration="1439000" />
+      <workItem from="1577931706163" duration="44000" />
+      <workItem from="1577931770996" duration="509000" />
+      <workItem from="1578841545957" duration="1083000" />
+      <workItem from="1579824161866" duration="71000" />
+      <workItem from="1579824480183" duration="667000" />
+      <workItem from="1580077830919" duration="1643000" />
+      <workItem from="1580419524779" duration="15755000" />
     </task>
     <servers />
   </component>
@@ -160,6 +207,10 @@
       <screen x="0" y="0" width="1858" height="1080" />
     </state>
     <state x="869" y="134" key="#PHP/0.0.1858.1080/-1304.141.1304.768@0.0.1858.1080" timestamp="1577930371372" />
+    <state x="616" y="232" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1579824171779">
+      <screen x="0" y="0" width="1858" height="1080" />
+    </state>
+    <state x="616" y="232" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1858.1080/-1304.141.1304.768@0.0.1858.1080" timestamp="1579824171779" />
     <state width="1340" height="192" key="GridCell.Tab.0.bottom" timestamp="1577930505781">
       <screen x="0" y="0" width="1858" height="1080" />
     </state>
@@ -176,10 +227,14 @@
       <screen x="0" y="0" width="1858" height="1080" />
     </state>
     <state width="1340" height="192" key="GridCell.Tab.0.right/0.0.1858.1080/-1304.141.1304.768@0.0.1858.1080" timestamp="1577930505781" />
-    <state x="663" y="186" key="SettingsEditor" timestamp="1577930597579">
+    <state x="372" y="464" key="NewPhpFileDialog" timestamp="1580433774470">
       <screen x="0" y="0" width="1858" height="1080" />
     </state>
-    <state x="663" y="186" key="SettingsEditor/0.0.1858.1080/-1304.141.1304.768@0.0.1858.1080" timestamp="1577930597579" />
+    <state x="372" y="464" key="NewPhpFileDialog/0.0.1858.1080/-1304.141.1304.768@0.0.1858.1080" timestamp="1580433774470" />
+    <state x="663" y="186" key="SettingsEditor" timestamp="1577931753046">
+      <screen x="0" y="0" width="1858" height="1080" />
+    </state>
+    <state x="663" y="186" key="SettingsEditor/0.0.1858.1080/-1304.141.1304.768@0.0.1858.1080" timestamp="1577931753046" />
     <state x="864" y="328" key="com.intellij.ide.util.TipDialog" timestamp="1577930054190">
       <screen x="0" y="0" width="1858" height="1080" />
     </state>
