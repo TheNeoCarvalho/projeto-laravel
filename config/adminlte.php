@@ -16,7 +16,7 @@ return [
 
     'title' => 'Admin',
     'title_prefix' => '',
-    'title_postfix' => ' - Laravel CMS',
+    'title_postfix' => ' - MCPF CMS',
 
     /*
     |--------------------------------------------------------------------------
@@ -30,7 +30,7 @@ return [
     |
     */
 
-    'logo' => '<b>Laravel</b> CMS',
+    'logo' => '<b>MCPF</b> CMS',
     'logo_img' => 'vendor/adminlte/dist/img/AdminLTELogo.png',
     'logo_img_class' => 'brand-image-xl',
     'logo_img_xl' => null,
